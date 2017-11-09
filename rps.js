@@ -1,6 +1,6 @@
 //Set initial variables
 
-var games_played = 0; 
+		var games_played = 0; 
 		var user_score = 0;
 		var cpu_score = 0;
 		var rock = "Rock";
