@@ -45,8 +45,8 @@ function game(weapon_value) {
 	}
 	
 	//writing results to the screen
-	document.getElementById('player_weapon').innerHTML = user_weapon;
-	document.getElementById('cpu_weapon').innerHTML = computer_weapon;
+	document.getElementById('player_choice').innerHTML = user_weapon;
+	document.getElementById('cpu_choice').innerHTML = computer_weapon;
 	document.getElementById('result').innerHTML = result;
 	document.getElementById('games').innerHTML = games_played;
 	document.getElementById('user_score').innerHTML = user_score;
